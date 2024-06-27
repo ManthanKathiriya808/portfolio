@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color:  rgba(52,53,58,255) ;
+    color:white;
+}
+section{
+    margin-top: 100px;
+}
+
+nav{
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+
+}
+.menu{
+    width: 40%;
+}
+
+.menu li{
+   list-style: none;
+}
+
+.menu li >a{
+    text-decoration: none;
+    color:white;
+    transition: all 1s;
+}
+.menu li >a:hover{
+    text-decoration: none;
+    color:rgba(255,200,107,255);
+    border-bottom:2px solid rgba(255,200,107,255) ;
+}
+
+.title{
+    width:20%;
+    text-align: center;
+    color: rgba(255,200,107,255);
+}
+
+.nav-bar{
+    width:20%;
+    text-align: center;
+    align-self: center;
+    line-height: 50px;
+}
+
+.main{
+    max-width: 1880px;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    font-size: 28px;
+    margin-top: 30px;
+}
+.name{
+    max-width: 900px;
+    align-self: center;
+    line-height: 50px;
+    min-width: 350px;
+}
+
+.name button{
+    border:2px solid rgba(255,200,107,255);
+    background-color: transparent;
+    color: rgba(255,200,107,255); 
+    margin-top: 20px;
+    border-radius: 10px;
+   padding: 10px 20px;
+   font-size: 20px;
+
+}
+.name button:hover{
+    color:rgba(52,53,58,255);
+    border: 1px solid transparent;
+    background-color: rgba(255,200,107,255);
+    margin-top: 20px;
+    border-radius: 10px;
+   padding: 10px 20px;
+   font-size: 20px;
+
+}
+.name span{
+    color: rgba(255,200,107,255); 
+    font-size: 40px;
+}
+
+.myPhoto{
+   max-width:1100px; 
+   min-width: 350px;
+    align-self: center;
+}
+
+.myPhoto img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+.about{
+    margin-top: 50px;
+    font-size: 23px;
+    padding: 20px;
+   
+}
+h1{
+    color: rgba(255,200,107,255); 
+    font-size: 40px;
+}
+.about h1{
+    color: rgba(255,200,107,255); 
+    font-size: 40px;
+    margin-left: 20px;
+}
+.about p{
+    padding:0px 100px;
+}
+
+.about span{
+    color: rgba(255,200,107,255); 
+}
+
+.mySkill{
+    
+    max-width: 1880px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-content:center;
+    align-items: center;
+    min-width: 340px;
+    margin-top: 20px;
+}
+
+.content{
+    width: 380px;
+    background-color: rgba(61,62,66,255);
+    text-align: center;
+    margin-bottom: 50px;
+    height: 300px;
+    align-self: center;
+    border-radius: 20px;
+  
+}
+
+.content:hover{
+    background-color: rgba(255,200,107,255);
+    color: rgba(52,53,58,255);
+}
+
+.content:hover  p{
+    color:rgba(52,53,58,255);
+}
+.myskill-h1{
+    text-align: center;
+    
+}
+
+.content i{
+    font-size: 100px;
+    align-self: center;
+    line-height: 200px;
+}
+
+.content p{
+    font-size: 35px;
+    line-height: 10px;
+    color: rgba(255,200,107,255); 
+}
+
+.portfolio{
+    max-width: 1880px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.websites{
+ max-width: 500px;
+ margin-top: 30px;
+    
+}
+
+.websites img{
+    max-width: 100%;
+    
+    height: 350px;
+   border-radius: 30px;
+}
+ 
+.website-button button{
+   text-align: center;
+   background-color:  rgba(255,200,107,255);
+   color:rgba(52,53,58,255); 
+  font-weight: 700;
+   margin-top: 30px;
+   border-radius: 10px;
+  padding: 15px 40px;
+  font-size: 25px;
+   
+}
+
+.website-button{
+    text-align: center;
+}
+
+.website-button button:hover{
+    border: 1px solid rgba(255,200,107,255);
+    background-color: transparent;
+    color: rgba(255,200,107,255)  ;
+}
+
+.myskill-h1-slide{
+    max-width: 1880px;
+    text-align: center;
+}
+
+
+
+.mySkill-slide{
+    width:1880px;
+    overflow:hidden;
+}
+
+
+.box{
+    width:7500px; 
+    display: flex;
+    justify-content: space-evenly;
+    animation:scroll 10s linear infinite;
+    margin-top: 50px;
+}
+
+@keyframes scroll{
+    from{margin-left: 0px;}
+    to{margin-left: -3750px;}
+}
+
+
+
+.boxes{
+    width: 380px;
+    background-color: rgba(61,62,66,255);
+    text-align: center;
+    margin-bottom: 50px;
+    height: 300px;
+    align-self: center;
+    border-radius: 20px;
+
+    
+}
+
+.boxes i{
+    font-size: 100px;
+    align-self: center;
+    line-height: 200px;
+}
+
+.boxes p{
+    font-size: 35px;
+    line-height: 10px;
+    color: rgba(255,200,107,255); 
+}
+
+legend{
+    text-align: center;
+    padding: 0px 30px;
+
+}
+fieldset{
+    max-width: 1850px;
+    min-width: 360px;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact-me{
+    max-width: 1850px;
+    min-width: 360px;
+    background-color: rgba(61,62,66,255);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.call{
+   border-radius: 20px;
+
+   width: 700px;
+   margin-bottom: 50px;
+    background-color: rgba(52,53,58,255);
+    padding: 30px;
+    text-align: center;
+    align-self:center;
+
+}
+
+.call:hover{
+    background-color: rgba(255,200,107,255);
+    color: rgba(52,53,58,255);
+}
+
+.call p{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.call  i{
+    font-size: 50px;
+}
+
+
+.thankyou {
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: white;
+    color:rgba(52,53,58,255);
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 40px;
+    max-width: 1855px;
+    
+
+}
+
+
+footer h3{
+    font-size: 25px;
+    line-height: 35px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+footer h4{
+    font-size: 25px;
+    line-height: 60px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p i{
+    font-size: 50px;
+    padding: 30px;
+    }
+
+footer p a{
+    text-decoration: none;
+    color:rgba(52,53,58,255);
+}
+
+footer a:hover{
+    color:rgba(255,200,107,255);
+}
