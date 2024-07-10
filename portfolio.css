@@ -13,15 +13,21 @@ section{
     margin-top: 100px;
 }
 
+.max-width{
+    max-width: 1600px;
+    margin: auto;
+}
+
 nav{
     width: 100%;
   
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    padding: 0px 10%;
     line-height: 50px;
     font-size: 30px;
+    position: relative;
     margin-top: 20px;
 }
 
@@ -32,11 +38,14 @@ nav ul{
 
 }
 .menu{
-    width: 40%;
+    width: 50%;
 }
 
 .menu li{
    list-style: none;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu li >a{
@@ -50,6 +59,27 @@ nav ul{
     border-bottom:2px solid rgba(255,200,107,255) ;
 }
 
+input{
+    position: absolute;
+    top: 40%;
+opacity: 0;
+    height: 25px;
+    width: 50px;
+    right: 8%;
+
+}
+
+
+input:checked + .menu{
+    display: flex;
+}
+
+.menu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-right: 5%;
+}
 .title{
     width:20%;
     text-align: center;
@@ -78,6 +108,7 @@ nav ul{
     align-self: center;
     line-height: 50px;
     min-width: 350px;
+    padding: 50px 0px;
 }
 
 .name button{
@@ -109,11 +140,16 @@ nav ul{
    max-width:1100px; 
    min-width: 350px;
     align-self: center;
+    
+
 }
 
 .myPhoto img{
     width: 100%;
-    border-radius: 50px;
+  
+    box-shadow: rgba(255,200,107,255)  0px 0px 29px 0px;
+    border-radius: 50%;
+    
 }
 
 
