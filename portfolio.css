@@ -8,6 +8,8 @@
 body{
     background-color:  rgba(52,53,58,255) ;
     color:white;
+    padding: 0px 20px;
+
 }
 section{
     margin-top: 100px;
@@ -94,20 +96,19 @@ input:checked + .menu{
 }
 
 .main{
-    max-width: 1880px;
-    min-width: 300px;
+    width: 100%;
+    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
     font-size: 28px;
     margin-top: 30px;
 }
 .name{
-    max-width: 900px;
+    width:500px;
     align-self: center;
     line-height: 50px;
-    min-width: 350px;
+    min-width: 200px;
     padding: 50px 0px;
 }
 
@@ -137,8 +138,8 @@ input:checked + .menu{
 }
 
 .myPhoto{
-   max-width:1100px; 
-   min-width: 350px;
+   width:700px; 
+   min-width: 200px;
     align-self: center;
     
 
@@ -148,7 +149,8 @@ input:checked + .menu{
     width: 100%;
   
     box-shadow: rgba(255,200,107,255)  0px 0px 29px 0px;
-    border-radius: 50%;
+    border-radius:51% 49% 59% 41% / 0% 100% 0% 100%  ;
+  
     
 }
 
@@ -178,13 +180,13 @@ h1{
 
 .mySkill{
     
-    max-width: 1880px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
     align-content:center;
     align-items: center;
-    min-width: 340px;
+    min-width: 200px;
     margin-top: 20px;
 }
 
@@ -225,7 +227,7 @@ h1{
 }
 
 .portfolio{
-    max-width: 1880px;
+    width: 100%;
    
     display: flex;
     flex-wrap: wrap;
@@ -234,13 +236,13 @@ h1{
 }
 
 .websites{
- max-width: 500px;
+ width: 500px;
  margin-top: 30px;
     
 }
 
 .websites img{
-    max-width: 100%;
+    width: 100%;
     
     height: 350px;
    border-radius: 30px;
@@ -269,14 +271,14 @@ h1{
 }
 
 .myskill-h1-slide{
-    max-width: 1880px;
+    width: 100%;
     text-align: center;
 }
 
 
 
 .mySkill-slide{
-    width:1880px;
+    width:100%;
     overflow:hidden;
 }
 
@@ -326,20 +328,20 @@ legend{
 
 }
 fieldset{
-    max-width: 1850px;
-    min-width: 360px;
+    width: 100%;
+min-width: 200px;
     text-align: center;
     padding: 30px;
 }
 
 .contact-me{
-    max-width: 1850px;
-    min-width: 360px;
+    width: 100%;
+    
     background-color: rgba(61,62,66,255);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 1%;
 }
 
 .call{
@@ -348,7 +350,7 @@ fieldset{
    width: 700px;
    margin-bottom: 50px;
     background-color: rgba(52,53,58,255);
-    padding: 30px;
+    padding: 3%;
     text-align: center;
     align-self:center;
 
@@ -381,7 +383,7 @@ footer{
     font-size: 30px;
     line-height: 60px;
     padding: 40px;
-    max-width: 1855px;
+    max-width: 100%;
     
 
 }
@@ -410,4 +412,12 @@ footer p a{
 
 footer a:hover{
     color:rgba(255,200,107,255);
+}
+
+img:hover {
+   background-color: rgba(255,200,107,255);
+}
+.overlay{
+    color: coral;
+    
 }
