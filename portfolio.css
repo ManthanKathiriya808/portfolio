@@ -280,11 +280,12 @@ h1{
 .mySkill-slide{
     width:100%;
     overflow:hidden;
+    margin-top: 50px;
 }
 
 
 .box{
-    width:7500px; 
+    width:2400px; 
     display: flex;
     justify-content: space-evenly;
     animation:scroll 10s linear infinite;
@@ -293,17 +294,17 @@ h1{
 
 @keyframes scroll{
     from{margin-left: 0px;}
-    to{margin-left: -3750px;}
+    to{margin-left: -800px;}
 }
 
 
 
 .boxes{
-    width: 380px;
+    width: 200px;
     background-color: rgba(61,62,66,255);
     text-align: center;
     margin-bottom: 50px;
-    height: 300px;
+    height: 200px;
     align-self: center;
     border-radius: 20px;
 
@@ -313,7 +314,7 @@ h1{
 .boxes i{
     font-size: 100px;
     align-self: center;
-    line-height: 200px;
+    line-height: 150px;
 }
 
 .boxes p{
