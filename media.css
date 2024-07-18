@@ -13,17 +13,36 @@
        display: none;
        top: 15vh;
       left:0px;
+      border-radius: 20px;
       width: 100%;
+   
+     flex-direction: column;
      
         background-color:  rgba(255,200,107,255);
-
         flex-direction: column;
     }
+
+   
+    .menu ul{
+        flex-direction: column;  
+        padding: 10px;
+        
+     }
+   
+    .menu li :hover{
+        background-color: rgba(52,53,58,255);
+        border-radius: 20px;
+        transition: all 0.5s;
+     }
+        
 
     .menu li{
         padding:2% 0px;
         width: 100%;
+   
         margin: 0;
+   
+        flex-direction: column;
         color:  rgba(52,53,58,255);  
     }
 
@@ -43,7 +62,7 @@
     
 .menu li >a:hover{
     text-decoration: none;
- 
+    color:  rgba(255,200,107,255);
     border-bottom:none;
 }
 
@@ -54,9 +73,7 @@
     .menu-icon{
         display: none;
     }
-    input{
-        display: none;
-    }
+  
 
     .menu{
         display: block;
