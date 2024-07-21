@@ -412,10 +412,10 @@ footer p a{
 footer a:hover{
     color:rgba(255,200,107,255);
 }
-
+/* 
 img:hover {
    background-color: rgba(255,200,107,255);
-}
+} */
 .overlay{
     color: coral;
     
