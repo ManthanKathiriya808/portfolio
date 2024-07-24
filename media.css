@@ -66,6 +66,9 @@
     border-bottom:none;
 }
 
+.about,.about1{
+    display: none;
+}
     
 }
 
@@ -81,8 +84,29 @@
 
 }
 
-@media(max-width:700px){
+@media(max-width:450px){
    
-
+    .responsive{
+        width:100%;
+    }
     
 }
+
+@media(max-width:448px){
+   
+    #changingText{
+        width:100%;
+        font-size: 32px !important;
+    }
+    
+}
+@media(max-width:334px){
+   
+    #changingText{
+        width:100%;
+        font-size: 27px !important;
+    }
+    
+}
+
+

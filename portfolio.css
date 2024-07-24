@@ -33,6 +33,8 @@ nav{
     margin-top: 20px;
 }
 
+
+
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -298,13 +300,16 @@ h1{
 
 
 .boxes{
-    width: 200px;
+    /* width: 200px; */
     background-color: rgba(61,62,66,255);
     text-align: center;
     margin-bottom: 50px;
     height: 200px;
     align-self: center;
     border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 5px rgb(133, 234, 241)
+    ;
 
     
 }
@@ -316,7 +321,7 @@ h1{
 }
 
 .boxes p{
-    font-size: 35px;
+    font-size: 19px;
     line-height: 10px;
     color: rgba(255,200,107,255); 
 }
@@ -419,4 +424,24 @@ img:hover {
 .overlay{
     color: coral;
     
+}
+
+
+
+
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+#changingText {
+  color: white;
+  border-right: 1px solid black;
+  animation: cursoranim 1s linear infinite;
+}
+
+@keyframes cursoranim {
+  50% {
+    border-right: 1px solid rgba(0, 0, 0, 0);
+  }
 }
