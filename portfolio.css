@@ -11,6 +11,36 @@ body{
     padding: 0px 20px;
 
 }
+
+
+
+
+.fixed{
+    /* box-shadow: rgba(250, 250, 255, 0.9) 1px 1px 29px 0px; */
+    /* backdrop-filter: blur(70px); */
+    border-radius: 52% 48% 50% 50% / 0% 0% 100% 100% ;
+    position: fixed;
+    left: 2%;
+    top: 50%;
+    
+    background-color:rgba(255,200,107,255);
+    /* background-color: rgb(9, 222, 237); */
+    transform: translateY(-50%);
+
+    color: rgba(52,53,58,255);
+    
+}
+
+.fixed-box{
+font-size: 50px;
+padding: 20px;
+}
+
+.fixed1{
+    
+    /* padding: 10px 15px; */
+}
+
 section{
     margin-top: 100px;
 }
@@ -114,24 +144,26 @@ opacity: 0;
     padding: 50px 0px;
 }
 
-.name button{
+.name-btn{
     border:2px solid rgba(255,200,107,255);
     background-color: transparent;
     color: rgba(255,200,107,255); 
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 10px;
    padding: 10px 20px;
    font-size: 20px;
 
 }
-.name button:hover{
+
+
+.name-btn:hover{
     color:rgba(52,53,58,255);
 
     background-color: rgba(255,200,107,255);
     
 
-}
-.name span{
+} 
+.name .span10, .span11,.span12{
     color: rgba(255,200,107,255); 
     font-size: 40px;
 }
@@ -173,7 +205,7 @@ h1{
     padding:0px 100px;
 }
 
-.about span{
+.about .span3{
     color: rgba(255,200,107,255); 
 }
 
@@ -427,21 +459,3 @@ img:hover {
 }
 
 
-
-
-
-h1{
-  font-family: 'Roboto', sans-serif;
-}
-
-#changingText {
-  color: white;
-  border-right: 1px solid black;
-  animation: cursoranim 1s linear infinite;
-}
-
-@keyframes cursoranim {
-  50% {
-    border-right: 1px solid rgba(0, 0, 0, 0);
-  }
-}
